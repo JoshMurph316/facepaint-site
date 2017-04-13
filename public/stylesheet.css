@@ -1,7 +1,3 @@
-body, html{
-    height: 100%;
-    background: linear-gradient(to bottom left, #0099ff 0%, #ccffcc 100%);
-}
 h1 {
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 58px;
@@ -12,11 +8,18 @@ h3 {
 li {
     padding: 0;
 }
+p{
+   font-family: 'Comfortaa', cursive;
+   font-size: 40px;
+}
+.jumbotron{
+    margin-top: 40px;
+}
 
 .btn {
     width: 175px;
     background-color: #cccccc;
-    color: #ccff66;
+    color: #9966ff;
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
@@ -33,5 +36,25 @@ li {
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
-    color: #bce5ae;
+    color: #9966ff;
+}
+.thumbnail {
+    padding:0;
+    border-radius: 20px;
+    border-color: lightpink;
+}
+.thumbnail img {
+    width: 100%;
+    border-radius: 20px;
+}
+.col-sm-6{
+    border-radius: 20px;
+}
+.p1 {
+    background-color: lightpink;
+}
+.dividers{
+    height: 1px;
+    border: none;
+    background-color: gray;
 }
