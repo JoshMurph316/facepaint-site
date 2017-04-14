@@ -1,3 +1,11 @@
+
+body{
+    background-image: url("https://previews.123rf.com/images/romasph/romasph1506/romasph150600784/41564761-Abstract-background-texture-with-blue-strokes-of-paint-Painted-paper-background-for-use-as-a-backgro-Stock-Vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   font-family: 'Comfortaa', cursive;
+   font-size: 40px;
+}
 h1 {
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 58px;
@@ -5,15 +13,17 @@ h1 {
 h3 {
     font-family: 'Raleway', sans-serif;
 }
-li {
-    padding: 0;
+
+a{
+    font-size: 25px;
+    padding-left: 5%;
 }
-p{
-   font-family: 'Comfortaa', cursive;
-   font-size: 40px;
-}
+
 .jumbotron{
     margin-top: 40px;
+}
+.bgpic{
+    margin: 50px 8%;
 }
 
 .btn {
@@ -52,6 +62,7 @@ p{
 }
 .p1 {
     background-color: lightpink;
+    border-radius: 20px;
 }
 .dividers{
     height: 1px;
