@@ -1,10 +1,8 @@
 
-body{
-    background-image: url("https://previews.123rf.com/images/romasph/romasph1506/romasph150600784/41564761-Abstract-background-texture-with-blue-strokes-of-paint-Painted-paper-background-for-use-as-a-backgro-Stock-Vector.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-   font-family: 'Comfortaa', cursive;
-   font-size: 40px;
+body {
+    background-color: rgb(230, 255, 255);
+    font-family: 'Comfortaa', cursive;
+    font-size: 40px;
 }
 h1 {
     font-family: 'Gloria Hallelujah', cursive;
@@ -14,58 +12,111 @@ h3 {
     font-family: 'Raleway', sans-serif;
 }
 
-a{
+a {
     font-size: 25px;
     padding-left: 5%;
 }
-
-.jumbotron{
-    margin-top: 40px;
+li {
+    list-style-type: none;
 }
-.bgpic{
-    margin: 50px 8%;
+/******#####Classes####******/
+.jumbotron {
+    margin-top: 10%;
+    background-color: lightblue;
 }
-
 .btn {
-    width: 175px;
-    background-color: #cccccc;
-    color: #9966ff;
-    font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
+    background-color: rgb(140, 217, 140);
+    border:none;
+    color:rgb(77, 77, 77);
 }
-.navbar-default {
-    margin: 0;
-    height: 5%;
-    background-color: #bce5ae;
 
-} 
-.landing-header {
-    text-align: center;
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    color: #9966ff;
-}
-.thumbnail {
-    padding:0;
-    border-radius: 20px;
-    border-color: lightpink;
-}
-.thumbnail img {
-    width: 100%;
-    border-radius: 20px;
-}
-.col-sm-6{
-    border-radius: 20px;
-}
 .p1 {
-    background-color: lightpink;
+    background-color: #ff99ff;
     border-radius: 20px;
 }
 .dividers{
     height: 1px;
     border: none;
     background-color: gray;
+}
+.fa-superpowers{
+    font-size: 20px;
+}
+/******Navbar-Classes-IDs**********##########*/
+.navbar-default {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 4%;
+    height: 5%;
+    background-color: rgb(140, 217, 140);
+    border-bottom: solid #66ccff 1px;
+}
+.navbar-right {
+    padding-right: 20px;
+}
+#navContact {
+    color: #009999;
+    background-color: rgb(255, 230, 255);
+}
+#navContact:hover {
+    color: black;
+}
+#nav ul li:hover a{ 
+     background-color: rgb(255, 230, 255);
+}
+#logo{
+    padding-bottom: 12px;
+}
+/*#*#*#*#**#*#*#**#*#*#*#*#*#**/
+.slider {
+  height: 550px;
+  position: relative;
+  border-radius:20px;
+  background-position: center;
+  background-size: cover;
+}
+.slide1,.slide2,.slide3,.slide4,.slide5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius:20px;
+}
+.slide1 {
+  background: url(https://mail.google.com/mail/u/0/?ui=2&ik=90522dcac2&view=fimg&th=15b5522cb2e14ab1&attid=0.1&disp=inline&realattid=ii_j1bchqe30_15b55227fa02505c&safe=1&attbid=ANGjdJ_SEoEYIFf7xrdPWpurCo3yGVuXSrT5gBPW7j0f4D7ddPat0QwyiPhNIvnCIvaj_PsRqasHbV7EvKIs9cds_KXHqFQI8B3GFCAQgRGpypKBHUfzPN4AfWr6Brk&ats=1492217616449&rm=15b5522cb2e14ab1&zw&sz=w1920-h988)no-repeat center;
+      background-size: cover;
+    animation:fade 20s infinite;
+-webkit-animation:fade 20s infinite;
+
+} 
+.slide2 {
+  background: url(https://mail.google.com/mail/u/0/?ui=2&ik=90522dcac2&view=fimg&th=15b5522cb2e14ab1&attid=0.3&disp=emb&realattid=ii_j1bchqf31_15b55227fa02505c&attbid=ANGjdJ--pn0Dx9Ym73rfv700B1EB2J9KI8MhUNhimYYNQDe-z8bkdrZhE9RFfnT5NWTBIZOIM6FsEGccMYf1MGqjHs3YHQYVN8rT2ZZZBabRmI6SbiX7KUTrMO-oAWw&sz=w944-h630&ats=1492217616442&rm=15b5522cb2e14ab1&zw&atsh=1)no-repeat center;
+      background-size: cover;
+    animation:fade2 20s infinite;
+-webkit-animation:fade2 20s infinite;
+}
+.slide3 {
+    background: url(https://mail.google.com/mail/u/0/?ui=2&ik=90522dcac2&view=fimg&th=15b5522cb2e14ab1&attid=0.2&disp=inline&realattid=ii_j1bchqfr2_15b55227fa02505c&safe=1&attbid=ANGjdJ8CvT1Ho9ReIn_-vdW-LxlaEIr1DcS4eHa1T0ysHZ1Z3NR-fU_tFl4qac2M5ZVLjCVmiNOHNbqc101VhA04T5MCBvcZuiqgDSF35SiYpt8xDRodz5CYzyTv1aY&ats=1492217616450&rm=15b5522cb2e14ab1&zw&sz=w1920-h988)no-repeat center;
+      background-size: cover;
+    animation:fade3 20s infinite;
+-webkit-animation:fade3 20s infinite;
+}
+@keyframes fade
+{
+  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0 }
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
 }

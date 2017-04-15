@@ -9,7 +9,7 @@
 
 <body>
         
-<nav class="navbar navbar-default">
+<nav id="nav" class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -18,15 +18,19 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/contact">Contact Me</a>
+      <!--^^^Hamburger^^^-->
+      
+      <a class="navbar-brand" href="/contact"><i class="fa fa-paint-brush" aria-hidden="true"></i> Ethel's Faces</a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
+        <li><a id="navContact" href="/contact">Book</a></li>
         <li><a href="/about">About</a></li>
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Sign Up</a></li>
+        <li><a id="logo" href="#"><i class="fa fa-superpowers" aria-hidden="true"></i></a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
