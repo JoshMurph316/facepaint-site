@@ -2,14 +2,15 @@
 <html>
 <head>
     <title>Face Paint Site</title>
-    
+    <script src="https://use.fontawesome.com/abdab53de4.js"></script>
     <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
-    <link rel="stylesheet" type="text/css" href="lander.css"></link>
+    <link rel="stylesheet" type="text/css" href="landing.css"></link>
+    <link rel="stylesheet" type="text/css" href="global.css"></link>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Gloria+Hallelujah|Comfortaa" rel="stylesheet"></head>
 </head>
 <body>
   
-<nav class="navbar navbar-default">
+<nav id="nav" class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -18,27 +19,33 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/home">Home</a>
+      <a class="navbar-brand" href="/home"> Ethel's Faces <i class="fa fa-paint-brush" aria-hidden="true"></i></a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="/about">About</a></li>
+        <li class="active"><a href="/about">Home</a></li>
+        <li><a href="/about">About</a></li>
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
         <li><a href="/contact">Contact</a></li>
+        <li><a href="/contact"><i class="fa fa-superpowers" aria-hidden="true"></i></a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
-<div class="hero-image">
-  <div class="hero-text">
-    <h1>I Ethel Arjona</h1>
-    <p>And I'm a Face Painter</p>
-    <a href="/home" class="btn btn-success btn-lg">Hire Me</a>
-  </div>
+<div class=" title container-fluid">
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1>I'm Ethel Arjona</h1>
+      <hr></hr>
+      <p>And I'm a Face Painter</p>
+      <a href="/home" class="btn btn-success btn-lg">Hire Me</a>
+    </div>
+  </div>  
 </div>
+
 
 </body>
 </html>
