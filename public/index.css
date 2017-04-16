@@ -1,8 +1,7 @@
-body, html {
-  height: 100%;
-}
-/*###########*/
+
+/*#####Lander CSS######*/
 /*Title image, text and btn */
+/*Image*/
 .hero-image {
     background-image: url("https://image.shutterstock.com/z/stock-photo-abstract-gradient-background-with-soft-color-tones-197799734.jpg");
     height: 75%;
@@ -11,6 +10,7 @@ body, html {
     background-size: cover;
     position: relative;
 }
+/*Hero text*/
 .hero-text {
     text-align: center;
     position: relative;
@@ -20,57 +20,23 @@ body, html {
     transform: translate(-50%, -50%);
     color: black;
 }
+/*Hero Button*/
 .btn-success {
     width: 200px;
 }
-/*#############*/
+
+/*######Home Page CSS#######*/
+/*Jumbotron, 1st row*/
 .jumbotron {
     margin-top: 8%;
     margin-bottom: 10%;
-    background-color: rgb(173, 230, 187);
-    border: solid gray 1px;
-}
-.plugImage {
-  padding-right: 20px;
-}
-.addSpace {
-  font-size: 20px;
-  height: 100px;
-  width: 100px;
-  border: solid black 1px;
+    background-color: rgb(140, 217, 140);
+    border: solid #66ccff 1px;
 }
 
-/*#############*/
-#fbButton { background-color:rgb(51, 112, 204);}
-#twButton { background-color:rgb(29, 202, 255);}
-#igButton { background: linear-gradient(to bottom left, #cc00ff 0%, #ffff00 100%);}
-#ggButton { 
-  background-color:rgb(211, 72, 54);
-  
-}
+/*Second Row*/
 
-#plugHouse {
-  font-size: 40%;
-  padding: 0;
-  margin-top: 100px;
-}
-.plugs {
-  text-align: right;
-  padding-bottom: 33px;
-}
-.button {
-  border: none;
-  color: white;
-  padding: 15px 35px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 40px 0px 0px 40px;
-}
-
-
-/*#############*/
 /*Slide show below*/
-
 .slider {
   height: 550px;
   position: relative;
@@ -123,4 +89,68 @@ body, html {
   33.333% { opacity: 0}
   66.666% { opacity: 1}
   100% { opacity: 0}
+}
+
+/*Right Side Links*/
+.link-container, container {
+  font-size: 40%;
+  padding: 0;
+  position: static;
+  height: 1px;
+}
+.links {
+  text-align: right;
+  padding-bottom: 33px;
+}
+.linkImage {
+  padding-right: 10px;
+  font-size: 35px;
+}
+.links a {
+  position: absolute;
+  right: -65px;
+  transition: 0.4s;
+  width: 8%;
+  color: white;
+  padding: 15px 10px;
+  text-align: right;
+  text-decoration: none;
+  border-radius: 40px 0px 0px 40px;
+}
+.links a:hover{
+  right: 0;
+}
+#fbButton { background-color:rgb(51, 112, 204); top:200px;}
+#twButton { background-color:rgb(29, 202, 255); top:260px;}
+#igButton { background: linear-gradient(to bottom left, #cc00ff 0%, #ffff00 100%); top:320px;}
+#ggButton { background-color:rgb(211, 72, 54); top:380px;}
+/*Third Row*/
+/*Left Menu*/
+.leftMenu {
+  padding-top: 50px;
+}
+.leftMenu li{
+  list-style-type: none;
+}
+#leftMenuLogo {
+  text-align:center;
+  font-size: .8em;
+  border-radius:20px 20px 0 0;
+  background-color: rgb(140, 217, 140);
+}
+.leftMenuButtons {
+  font-size: .6em;
+  background-color: rgb(200, 245, 245);
+}
+.leftMenuButtons a{
+  padding-left:30px;
+  text-decoration: none;
+}
+.leftMenuButtons:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.leftMenuLogos {
+  border-radius: 0 0 20px 20px;
+  background-color: rgb(140, 217, 140);
+  padding:10px 0 10px 0;
 }

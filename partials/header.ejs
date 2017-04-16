@@ -2,36 +2,52 @@
 <html>
 <head>
     <title>Face Paint Site</title>
-    <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
     <script src="https://use.fontawesome.com/abdab53de4.js"></script>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css"></link>
-</head>
-
+    <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
+    <link rel="stylesheet" type="text/css" href="index.css"></link>
+    <link rel="stylesheet" type="text/css" href="global.css"></link>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Gloria+Hallelujah|Comfortaa" rel="stylesheet"></head>
+    
 <body>
-        
-<nav id="nav" class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <!--^^^Hamburger^^^-->
-      
-      <a class="navbar-brand" href="/contact"><i class="fa fa-paint-brush" aria-hidden="true"></i> Ethel's Faces</a>
-    </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a id="navContact" href="/contact">Book</a></li>
-        <li><a href="/about">About</a></li>
-      </ul>
+  
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '102952080259543',
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+    FB.AppEvents.logPageView();
+  };
 
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Sign Up</a></li>
-        <li><a id="logo" href="#"><i class="fa fa-superpowers" aria-hidden="true"></i></a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+  
+  <nav id="nav" class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/home"> Ethel's Faces <i class="fa fa-paint-brush" aria-hidden="true"></i></a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="/home">Home</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
