@@ -3,27 +3,44 @@ body {
     font-family: 'Comfortaa', cursive;
     font-size: 50px;
 }
+hr {
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+#foot {
+    margin-top: 300px;
+}
 
 /*##Navbar Stuff##*/
 .navbar-default {
     font-size: 55%;
     font-family: 'Open Sans', sans-serif;
-    margin-bottom: 10px;
     background-color: rgb(140, 217, 140);
     border-bottom: solid #66ccff 1px;
+    margin: 0;
+    position: relative;
 }
 .navbar-right {
     padding-right: 1%;
 }
 .navbar-brand {
-    font-size: 80%;
+    font-size: 100%;
+    padding: 12px 15px;
 }
 .fa-superpowers{
-    font-size: 85%;
+    font-size: 100%;
+    color:purple;
 }
 #nav ul li:hover a{ 
      background-color: rgb(255, 230, 255);
+     color: rgb(140, 217, 140);
 }
-.navBtn {
-    padding-bottom: 17%;
+#foot {
+    font-size: 35%;
+    position: relative;
+    bottom: 0;
 }
