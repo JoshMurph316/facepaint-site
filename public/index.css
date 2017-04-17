@@ -25,7 +25,7 @@
     width: 200px;
 }
 
-/*######Home Page CSS#######*/
+/*########################Home Page CSS#######################*/
 /*Jumbotron, 1st row*/
 .jumbotron {
     margin-top: 8%;
@@ -33,9 +33,41 @@
     background-color: rgb(140, 217, 140);
     border: solid #66ccff 1px;
 }
+/*Right Side Links*/
+.link-container, container {
+  font-size: 40%;
+  padding: 0;
+  position: static;
+  height: 1px;
+}
+.links {
+  text-align: right;
+  padding-bottom: 33px;
+}
+.link-image {
+  padding-right: 10px;
+  font-size: 35px;
+}
+.links a {
+  position: absolute;
+  right: -65px;
+  transition: 0.4s;
+  width: 8%;
+  color: white;
+  padding: 15px 10px;
+  text-align: right;
+  text-decoration: none;
+  border-radius: 40px 0px 0px 40px;
+}
+.links a:hover{
+  right: 0;
+}
+#fb-button { background-color:rgb(51, 112, 204); top:200px;}
+#tw-button { background-color:rgb(29, 202, 255); top:260px;}
+#ig-button { background: linear-gradient(to bottom left, #cc00ff 0%, #ffff00 100%); top:320px;}
+#gg-button { background-color:rgb(211, 72, 54); top:380px;}
 
 /*Second Row*/
-
 /*Slide show below*/
 .slider {
   height: 550px;
@@ -91,66 +123,68 @@
   100% { opacity: 0}
 }
 
-/*Right Side Links*/
-.link-container, container {
-  font-size: 40%;
-  padding: 0;
-  position: static;
-  height: 1px;
-}
-.links {
-  text-align: right;
-  padding-bottom: 33px;
-}
-.linkImage {
-  padding-right: 10px;
-  font-size: 35px;
-}
-.links a {
-  position: absolute;
-  right: -65px;
-  transition: 0.4s;
-  width: 8%;
-  color: white;
-  padding: 15px 10px;
-  text-align: right;
-  text-decoration: none;
-  border-radius: 40px 0px 0px 40px;
-}
-.links a:hover{
-  right: 0;
-}
-#fbButton { background-color:rgb(51, 112, 204); top:200px;}
-#twButton { background-color:rgb(29, 202, 255); top:260px;}
-#igButton { background: linear-gradient(to bottom left, #cc00ff 0%, #ffff00 100%); top:320px;}
-#ggButton { background-color:rgb(211, 72, 54); top:380px;}
 /*Third Row*/
 /*Left Menu*/
-.leftMenu {
+.left-menu {
   padding-top: 50px;
 }
-.leftMenu li{
+.left-menu li{
   list-style-type: none;
 }
-#leftMenuLogo {
+#left-menu-logo {
   text-align:center;
   font-size: .8em;
   border-radius:20px 20px 0 0;
   background-color: rgb(140, 217, 140);
 }
-.leftMenuButtons {
+.left-menu-buttons {
   font-size: .6em;
   background-color: rgb(200, 245, 245);
 }
-.leftMenuButtons a{
+.left-menu-buttons a{
   padding-left:30px;
   text-decoration: none;
 }
-.leftMenuButtons:hover {
+.left-menu-buttons:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-.leftMenuLogos {
+.left-menu-logos {
   border-radius: 0 0 20px 20px;
   background-color: rgb(140, 217, 140);
   padding:10px 0 10px 0;
+}
+
+/*#################### END HOME PAGE ###########################*/
+/*##################### CONTACTS PAGE ##########################*/
+.form-container {
+  margin-top: 180px;
+  border: solid rgb(140, 217, 140) 2px;
+  border-radius: 20px;
+  background-color: #66ccff;
+}
+.form-contact {
+  font-size: .6em;
+  padding: 50px;
+}
+
+.form-container h3 {
+  padding-left: 40px;
+}
+.form-switch-btn {
+  font-size: .6em;
+  margin:20px 0 0 0;
+  float:left;
+  padding: 10px 40px;
+  color: black;
+}
+#signup-btn {
+  border-radius:20px 0 0 20px;
+  background-color: rgb(140, 217, 140);
+  color: rgb(102, 204, 255);
+}
+#login-btn {
+  border-radius:0 20px 20px 0;
+  background-color: rgb(102, 204, 255);
+  color: rgb(140, 217, 140);
+  border:solid gray 1px;
 }

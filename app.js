@@ -2,6 +2,8 @@ var express = require("express"),
     app = express(),
     bodyParser = require("body-parser");
     
+// set port    
+var port = process.env.Port|| 8080
 
 app.use(express.static(__dirname + "/public"));
 //^Used^to^enable^other^directory^files^like ^css^^

@@ -16,6 +16,9 @@ hr {
 }
 #foot {
     margin-top: 300px;
+    font-size: 35%;
+    position: relative;
+    bottom: 0;
 }
 
 /*##Navbar Stuff##*/
@@ -23,7 +26,7 @@ hr {
     font-size: 55%;
     font-family: 'Open Sans', sans-serif;
     background-color: rgb(140, 217, 140);
-    border-bottom: solid #66ccff 1px;
+    border-bottom: solid rgb(102, 204, 255) 1px;
     margin: 0;
     position: relative;
 }
@@ -39,11 +42,6 @@ hr {
     color:purple;
 }
 #nav ul li:hover a{ 
-     background-color: rgb(255, 230, 255);
+     background-color: rgb(230, 255, 255);
      color: rgb(140, 217, 140);
-}
-#foot {
-    font-size: 35%;
-    position: relative;
-    bottom: 0;
 }
