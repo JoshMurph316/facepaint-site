@@ -156,6 +156,10 @@
 
 /*#################### END HOME PAGE ###########################*/
 /*##################### CONTACTS PAGE ##########################*/
+.form-control {
+  width: 80%;
+  border: solid rgb(140, 217, 140) 2px;
+}
 .form-container {
   margin-top: 180px;
   border: solid rgb(140, 217, 140) 2px;
@@ -165,26 +169,42 @@
 .form-contact {
   font-size: .6em;
   padding: 50px;
+  border-right: solid rgb(140, 217, 140) 3px;
 }
-
-.form-container h3 {
-  padding-left: 40px;
+.form-heading-container{
+  font-size: .7em;
+  color: #333;
 }
-.form-switch-btn {
-  font-size: .6em;
-  margin:20px 0 0 0;
-  float:left;
-  padding: 10px 40px;
-  color: black;
-}
-#signup-btn {
-  border-radius:20px 0 0 20px;
+.form-heading-container{
   background-color: rgb(140, 217, 140);
-  color: rgb(102, 204, 255);
+  border-radius:20px;
+  width: 80%;
+  margin: 30px auto 35px auto;
+  padding: 10px;
 }
-#login-btn {
-  border-radius:0 20px 20px 0;
-  background-color: rgb(102, 204, 255);
-  color: rgb(140, 217, 140);
-  border:solid gray 1px;
+.pic-container {
+  margin: 35px 0 5px 20px;
+  width: 350px;
+  height: 300px;
+}
+.test {
+  font-size: 25px;
+  margin: 20px;
+}
+#header {
+  padding-left: 15px;
+}
+#subheader {
+  font-size: 20px;
+}
+#zip-code {
+  width: 30%;
+}
+#form-pic {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius:20px;
+  background: url("https://mail.google.com/mail/u/1/?ui=2&ik=1bc3e1a47f&view=fimg&th=15b7b95473831fe8&attid=0.1.1&disp=emb&attbid=ANGjdJ8zdRH56IMJQ6vckue8JS3vwYy6wLxY1TeY3BHbnUJqDfBA9zCwiKON7cKpNryGL21uLy-TJ5oGgZZoQGRUBBCboj5EOGOf64mfp-yNNy80GjhL993j5NsJcdI&sz=w908-h608&ats=1492477959561&rm=15b7b95473831fe8&zw&atsh=1")no-repeat center;
+  background-size: cover;
 }

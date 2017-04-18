@@ -1,28 +1,48 @@
 <% include ../partials/header %>
 <div class="form-container container">
-  <div class="container">
-    <a id="signup-btn"class="form-switch-btn">SignUp</a>
-    <a id="login-btn"class="form-switch-btn">Login</a>
+  <div class="form-heading-container container">
+    <h1 id="header">SignUp 
+      <span id="subheader"> *for best deals and exclusive offers</span>
+    </h1>
   </div>
-  <h3>for best deals and exclusive offers</h3>
   <div class="row">
-    <form class="form-contact col-md-8">
+    <form class="form-contact col-md-7">
       <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-      </div>
+        <label for="firstName">First Name</label>
+        <input type="text" class="form-control" placeholder="first name">
+      </div> <!--First Name-->
+      <div class="form-group">
+        <label for="lastName">Last Name</label>
+        <input type="text" class="form-control" placeholder="last name">
+      </div> <!--Last Name-->
+      <div class="form-group">
+        <label for="phoneNumber">Phone</label>
+        <input class="form-control" type="tel" min="10" max="10" placeholder="(xxx)-xxx-xxxx">
+      </div> <!--Phone-->
+      <div class="form-group">
+        <label>Zip</label>
+        <input id="zip-code" class="form-control" type="text" pattern="[0-9]{5}" title="Five digit zip code" placeholder="zipcode">
+      </div> <!--Zip-->
+      <div class="form-group">
+        <label for="emailAddress">Email address</label>
+        <input type="email" class="form-control" placeholder="Email">
+      </div> <!--Email-->
       <div class="form-group">
         <label for="exampleInputPassword1">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        <input type="password" class="form-control" placeholder="Password">
         <p class="help-block">You will never get spam from us.</p>
-      </div>
-      <button type="submit" class="form-submit">Submit</button>
+      </div> <!--Password-->
+      <button type="submit" class="form-control">Submit</button>
     </form>
-    <div class="col-md-4">
-      remaining space
-    </div>
+      <div class="pic-container container col-md-5">
+        <div id="form-pic"></div>
+        <p class="test"> distinctio minima. Facere, vitae, animi, mollitia, pariatur hic expedita numquam aliquam blanditiis molestiae quae nemo?</p>
+        <p><strong>- joe shmoe</strong></p>
+      </div>
   </div>
-    
+  <div class="test row">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro dignissimos ullam omnis architecto quos. Vitae, quas, perspiciatis, aut cum ratione sed odio magni animi id ex sapiente perferendis nulla deleniti.</p>
+  </div>
 </div>
 
 
