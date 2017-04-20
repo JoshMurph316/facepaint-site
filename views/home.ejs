@@ -5,7 +5,7 @@
         <h1>Ethel's Faces</h1>
         <hr class="dividers">
         <p>Professional Face Painter</p>
-        <p><a class="btn btn-primary btn-lg" href="/contact" role="button">Learn more</a></p>
+        <p><a class="btn btn-primary btn-lg" href="/contact" role="button">Book Now !</a></p>
       </div>
 </div>
 <!--^^^^^Jumbotron^^^^Container^^^^^-->
@@ -33,32 +33,71 @@
 </div>
 <!--####Start Second Row####-->
 <div class="container">
-  <div class="row">
-    <div class="p1 col-md-4 container">
-      <h2>Make your next party Amazing!</h2>
-      <div
-        class="fb-like"
-        data-share="true"
-        data-width="450"
-        data-show-faces="true">
+  <div class="row row-two">
+    <div class="col-md-5 container">
+      <div class="form-container">
+        <div class="form-heading-container container">
+          <h1 id="header">SignUp 
+            <span id="subheader"> *for best deals and exclusive offers</span>
+          </h1>
+        </div>
+        <div class="form-row">
+          <form class="form-contact">
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input type="text" class="form-control" placeholder="first name">
+            </div> <!--First Name-->
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input type="text" class="form-control" placeholder="last name">
+            </div> <!--Last Name-->
+            <div class="form-group">
+              <label for="phoneNumber">Phone</label>
+              <input class="form-control" type="tel" min="10" max="10" placeholder="(xxx)-xxx-xxxx">
+            </div> <!--Phone-->
+            <div class="form-group">
+              <label>Zip</label>
+              <input id="zip-code" class="form-control" type="text" pattern="[0-9]{5}" title="Five digit zip code" placeholder="zipcode">
+            </div> <!--Zip-->
+            <div class="form-group">
+              <label for="emailAddress">Email address</label>
+              <input type="email" class="form-control" placeholder="Email">
+            </div> <!--Email--> <!--Password-->
+            <div class="form-group">
+              <label for="emailAddress">Confirm Email</label>
+              <input type="email" class="form-control" placeholder="Email">
+            </div> <!--Confirm-Email--> <!--Password-->
+            <div>terms and conditions</div>
+            <button type="submit" class="form-control">Submit</button>
+          </form> <!-- Form -->
+        </div>
       </div>
-    </div>
-    <div class="col-md-8">
+    </div> <!--Form Container -->
+    <div class="col-md-7">
         <div class='slider'>
           <div class='slide1'></div>
           <div class='slide2'></div>
           <div class='slide3'></div>
-      </div>
-    </div>
+        </div>
+        <div>
+          <p>sunt assumenda repudiandae saepe tenetur voluptatem. </p>
+        </div>
+      </div> <!--Slide Show-->
   </div>
 </div>
 <!--^^^^^slide show and left side content^^^^^-->
-
-<!--#####Third row#######-->
 <div class="container">
   <div class="row">
-    <div class="left-menu container col-md-4">
-      <ul>
+      <div>
+        <h2>Sharing Center</h2>
+      </div>
+  </div>
+</div>
+<!--#####Third row#######-->
+<div class="container">
+  <div class="row row-three">
+    <div class="left-menu-container container col-md-5">
+      <ul class="left-menu-ul">
         <li id="left-menu-logo">Ethel's Faces</li>
         <li class="left-menu-buttons"><a href="">connect</a></li>
         <li class="left-menu-buttons"><a href="/about">more info</a></li>
@@ -79,12 +118,11 @@
           </a>
         </li>
       </ul>
-    </div>
-    <div class="col-md-8">
+    </div> 
+    <div class="col-md-7">
       <div class="fb-comments" data-href="https://gitfacepaint-joshmurph316.c9users.io/home" data-width="650" data-numposts="5"></div>
     </div>
   </div>
 </div>
-
 
 <% include ../partials/footer %> 

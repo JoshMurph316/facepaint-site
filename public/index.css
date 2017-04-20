@@ -125,13 +125,17 @@
 
 /*Third Row*/
 /*Left Menu*/
-.left-menu {
-  padding-top: 50px;
+.row-three {
+  margin: 20px auto 20px auto;
 }
-.left-menu li{
-  list-style-type: none;
+.left-menu-container {
+  
+}
+.left-menu-ul{
+  padding: 0;
 }
 #left-menu-logo {
+  list-style-type: none;
   text-align:center;
   font-size: .8em;
   border-radius:20px 20px 0 0;
@@ -140,6 +144,7 @@
 .left-menu-buttons {
   font-size: .6em;
   background-color: rgb(200, 245, 245);
+  list-style-type: none;
 }
 .left-menu-buttons a{
   padding-left:30px;
@@ -151,35 +156,39 @@
 .left-menu-logos {
   border-radius: 0 0 20px 20px;
   background-color: rgb(140, 217, 140);
-  padding:10px 0 10px 0;
+  text-align: center;
+}
+.link-image {
+  padding: 15px;
 }
 
 /*#################### END HOME PAGE ###########################*/
 /*##################### CONTACTS PAGE ##########################*/
+.row-two {
+  margin: 20px auto 20px auto;
+}
 .form-control {
-  width: 80%;
   border: solid rgb(140, 217, 140) 2px;
 }
 .form-container {
-  margin-top: 180px;
   border: solid rgb(140, 217, 140) 2px;
   border-radius: 20px;
   background-color: #66ccff;
+  margin: 75px auto;
 }
 .form-contact {
-  font-size: .6em;
-  padding: 50px;
-  border-right: solid rgb(140, 217, 140) 3px;
+  font-size: .5em;
+  padding: 35px;
 }
 .form-heading-container{
-  font-size: .7em;
+  font-size: .6em;
   color: #333;
 }
 .form-heading-container{
   background-color: rgb(140, 217, 140);
   border-radius:20px;
   width: 80%;
-  margin: 30px auto 35px auto;
+  margin: 30px auto 10px 20px;
   padding: 10px;
 }
 .pic-container {
@@ -189,7 +198,7 @@
 }
 .test {
   font-size: 25px;
-  margin: 20px;
+  margin: 25px 8px;
 }
 #header {
   padding-left: 15px;
