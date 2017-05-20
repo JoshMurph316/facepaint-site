@@ -1,48 +1,41 @@
 <% include ../partials/header %>
-
-<div class="container">
-      <div class="jumbotron">
-        <h1>Ethel's Faces</h1>
-        <hr class="dividers">
-        <p>Professional Face Painter</p>
-        <p><a class="btn btn-primary btn-lg" href="/booking" role="button">Book Now !</a></p>
+<div class="row1-container container-fluid">
+  <div class="row">
+    <div class="row1 col-md-7">
+      <div class="jumbo">
+        <h1 class="logo">Ethel's Faces</h1>
+        <hr class="white-hr-full">
+        <p class="jumbo-subheader">Professional Face Painter</p>
+        <p><a class="jumbo-btn" href="/booking" role="button">Book Now !</a></p>
       </div>
+    </div> <!--Jumbotron-->
+    <div class="row1 col-md-5">
+      <div class="slider-container">
+        <div class='slider'>
+          <div class='slide1'></div>
+          <div class='slide2'></div>
+          <div class='slide3'></div>
+        </div>
+      </div>
+    </div> <!--Slide Show-->
+  </div>  
 </div>
 <!--^^^^^Jumbotron^^^^Container^^^^^-->
-<div class="link-container container">
-  <div class="links">
-    <a href="https://www.facebook.com/ethelsfaces/" id="fb-button">
-      <i class="link-image fa fa-facebook-official fa-lg" aria-hidden="true"></i>
-    </a>
-  </div>
-  <div class="links">
-    <a id="tw-button">
-      <i class="link-image fa fa-twitter-square fa-lg" aria-hidden="true"></i>
-    </a>
-  </div>
-  <div class="links">
-    <a id="ig-button">
-      <i class="link-image fa fa-instagram fa-lg" aria-hidden="true"></i>
-    </a>
-  </div>
-  <div class="links">
-    <a id="gg-button">
-      <i class="link-image fa fa-google-plus" aria-hidden="true"></i>
-    </a>
-  </div>
-</div>
 <!--####Start Second Row####-->
-<div class="container">
-  <div class="row row-two">
-    <div class="row-two-container col-md-5 container">
-      <div class="form-container">
+<div class="row2-container container-fluid">
+  <div class="container">
+    <hr class="row2-black-hr"></hr>
+  </div>
+  <div class="row row2">
+    <div class="col-md-1"></div>  <!--Left Side Place Holder-->
+    <div class="col-md-4 container form-container">
+      <div class="">
         <div class="form-heading-container container">
-          <h1 class="header">SignUp 
-            <span id="subheader"> *for best deals and exclusive offers</span>
-          </h1>
+          <h1 id="form-header">SignUp</h1>
+          <p id="form-subheader">get instant discount offers when you subscribe</p>
         </div>
         <div class="form-row">
-          <form class="form-contact">
+          <form class="form-signup" action="/exit">
             <div class="form-group">
               <label for="firstName">First Name</label>
               <input type="text" class="form-control" placeholder="first name">
@@ -67,62 +60,98 @@
               <label for="emailAddress">Confirm Email</label>
               <input type="email" class="form-control" placeholder="Email">
             </div> <!--Confirm-Email--> <!--Password-->
-            <div>terms and conditions</div>
-            <button type="submit" class="form-control">Submit</button>
+            <div class="form-group form-btn-container">
+              <button type="submit" class="form-control form-btn">Submit</button>
+            </div>
           </form> <!-- Form -->
         </div>
       </div>
     </div> <!--Form Container -->
-    <div class="row-two-container col-md-7 container">
-        <div class='slider'>
-          <div class='slide1'></div>
-          <div class='slide2'></div>
-          <div class='slide3'></div>
-        </div>
-        <div>
-          <p>sunt assumenda repudiandae saepe tenetur voluptatem. </p>
-        </div>
-      </div> <!--Slide Show-->
-  </div>
-</div>
-<!--^^^^^slide show and left side content^^^^^-->
-<div class="container">
-  <div class="row">
-      <div>
-        <h2>Sharing Center</h2>
+    <div class="col-md-1"></div>
+    <div class="col-md-5 container thumbnail-container">
+      <div class="row thumbnail-header-row">
+        <h1 class="logo">Ethel's Faces</h1>
+        <p class="thumbnail-subheader">photo gallery</p>
       </div>
+      <div class="row thumbnail-row thumbnail-row1">
+        <div class="col-xs-4 thumbnail">
+          <img src="https://lh3.googleusercontent.com/c1pPhl2PIBkRtpSfMBQavMLj8eqC0mT4NQKHWXzcO6QCfhn6Z-AAIqgjFW94jQW6RQnly00eDo4usr8sZzMkJwxuba0P4w33qfqloLECh2jV9B8BNwTV2T0ELcXsPjbph--aa-PBCO21qolT4Nk7oj9DMd7gyPOpnOALLEfkjZgnD8qysCEg8q_BIFC-qk8Tra9MdLpY4d5dAvwkAJ0NeTAontDk3qif-irgd-o0IBJEGQID6FgubBoWX3Abf_x1Zx54cheRuKkGNZzHa71grcVsHAf8I2iIEvFEUR6eIhI_dNSlszU9oPd58F76hvVYBtZU6FEc55lfHm17EcHDGuWE9R2ZYiHZeb57Q-bq8nIMtYPLXFh4WGwRenAiCpOUe_rSEHsvJ-vJ8mzAZTG7D9xos8j-fFHOdtrvsfZQfI-ZXsXBUEmIzRjqWxlcZdS5kRIQEeDRYkUqnW7vZqGqTMMk8Z7b01S8UBIFPX8MbByC4ad1fLJ3ESUNQLaRlZFj4_t2zFAyv9HddYGZljh59Uym7PoqT1dtUjRqmhcMWgy3p7z2vfKYrMox41TCDmQoAnHpLuXCMqpygPu_CUCI-JAraDiJ3iV1NVwnbTxp2uIefJtinCCI=w960-h641-no" class="img-responsive" alt="Responsive image"></img>
+        </div>
+        <div class="col-xs-4 thumbnail">
+          <img src="https://lh3.googleusercontent.com/46YQxl_2jw8VAIZnb13RhF3bdLGsk9BHLzUdzlogzGxtIcZoXm_Lp2jZM9q1PlvwcsGot_B-pvw6VZnoc7BkNodM2S_mcyVNYqtoSmL_g1fejFnVznNbDHmOqVrC7CUJ_qTV11l1RR_Zn_fRyoJ1BQoFbXC8Xz8XwAuAQk8ieOCcJFSZ0_dGIlTkKwnwH586zOCIEcZapHBG6QX0-EAt-E1ci1DgPzMsPOB7-AOgxX5V474SREYSEMzzyKElyI1ZCsPh9upbCNKG3yg0l1h_h9FroFfxzgvQMnFYHIJdrdfamifun_D2NA2DXd0IVjGfLmR8ad4Lvond5Svqe8ICUF1dypA8fINKCpAMBZDbU9E7nIP2XNlEgTZ0Ka-Kyt3bD3ejAszKTBy-rG4-N9Ef5Tg9laXg41zTOhyhnSl8GX_rGqRmUGB9fBkkVXZ0NNsYNkkalAzMDDmWLLJM2kVi3lLBGDh-nBi4TxsYn-yCejN7xueVOnjM7tnFdPuc4RpkwCuaNTApEn1q1BY9YQvi_BZg0yOqcCwEjh4RQbtipn4C251qDlDyOR4gWiMKt2nTyV8tGHUY7AlIvTilRzAiX-EVWLLWoQQ1sAZjPL4W3I4jlPSlHOp1=w960-h643-no" class="img-responsive" alt="Responsive image"></img>
+        </div>
+        <div class="col-xs-4 thumbnail">
+          <img src="https://lh3.googleusercontent.com/iC1WGhQ2BeLodFmC-X5CFuj3od8A2cUqf1UMJVt4tNwEzdLSgQy6uVhomfcB_lP_NmvqZwmNElsSBiplBwisvDWsUueokWRXi3wc8Xr4jCRGpsO9MxhxPLLa0acR0ad0xfDwUwhApIDO6zBf_aW9Ero94kfOsNS94tHyIu5hkRTwiJZgXoqWhRGwMTeIGaB2zTyuJQBPQ4cNDNR0Nt67QGKMulNItZIv_FTZfuQ_BDyBxcjVzbBkb8vWi5eeb77_-_TvWVSLumdL4wntbg5Dc44-hDZmrV5MnmH4F3c1GxAKcPw6Lt0lf-hbd2YMqrHkNLVCsh-3_yMjwGb__aWMIJ9vIvxC1GSSoCuzVFiuaR3hufwWhyVkWu7hjTbSOfjfL_zZhhyiAxe_9f6R6oFK5F34uYu2Ob7fawl73bGHjVjeHTCrSsv19FRarW50G3FQi-COHjWjbjH43f3wfdbaSmcRZqxWp7IMdtcjbqEm4_zN0SYfET9x84f0BNfzQmS-QOQEzAxnWntD6ISfdFq0xvj56pqleSNJZmsY6oGZvaFHSohcyD_O-EyNi0PLE4vdenDs9puXM9_7UrEe9tiJAys8dVRRCyvtHlep6Fosy3D5dhnKJzub=w960-h643-no" class="img-responsive" alt="Responsive image"></img>
+        </div>
+      </div> <!--thumbnail row 1-->
+      <div class="row thumbnail-row thumbnail-row2">
+        <div class="col-xs-4 thumbnail">
+          <img src="https://lh3.googleusercontent.com/5uv3-jOTikagZnjfTgpv3mGXnNARODOwBKXEFT11thhiZb0fG94prh1HAKzVFjbRKTAPld0XyI8ws7oAFSQ_9AAzo1M9dTShGlK3lFD8oycyf0QgYdQo79JAH-U65pIQzQBeEjsd2_hlnGscmdkTMVglA5uTMNw4Y_QNhL2Ne4ZT2Y-LqITGETPCYt5dcZ9eFAACJlLGMxTe38k3w2TqRFSzaLTVk7A_GI91xXfUDGUSkEZOpSCWydfHsJD5KZ8uW973DfGH5Z1EL51igUK36veKJ1Y_UbuifAzd7UPGkqamyK3zUjNorHqL3ds2ktaGiZgmot28IAn7XQuVWWpVD4UckBCm1-JrCDuTkckyV4bJYdzvXjFHiTrp-LhTM_nhPmGvCGlMm4tNwmuKrWC4_Q1dJCEBpjn8YhfQY15AmF84LaIehWxhraTEzVRzdA6SrENMq-vHqoPXUI_lgQBjrcSLa2YhsD0zTXTJJS4fjNdVX27B0IPsurmGFbrpZvhMexmRIOuMdfItl19O_L-psxROUwgGVQt1oPo9VaBspFAwxL_jen2HDFpSW91MpVn1Ka8MjKXm3KxYzcKNuT7C5R_XGfyICutBy74YQSqCjCCxj3ae8zvE=w1483-h988-no" class="img-responsive" alt="Responsive image"></img>
+        </div>
+        <div class="col-xs-4 thumbnail">
+          <img src="https://lh3.googleusercontent.com/ODLGZ5EmK4vrSfQoO89pwb8Ulwllcn8oOoNIXvjWpsPznTxihuuvlezINU6BwOuujeXu9XLjgAPFdd0al7y7UNPG9uqRXzZMApjrU3MopR32blQfWKXOGJ6HTumHuWWbAceqJfglcFXVQkhF0VYk0fnk9qHdq_EyV5XM2xRSaWbVvb90XOLBFHRnBM0Z5FXI2Kg_BDIfIs028xxeyzk2iEPR0neIhLlbwfyZACazaxZxveGW0BV2WbjLgu5FJh-zc-G-WcLAmDDMm9D6X-4ooUwMs9CL4gW3fY2Q-05KRtS20lo-ZSBUssgfNQhAGDgBuOaVXkJg36KRcfjGhhqTskpF_LEndKXkVyk6DmJ_Lhnn_RYr73HN29FtULLsk9xzuMFcvz7DLyYEcFZs-uSQgTZpOQJArtwGvdskN3oIwYoGMC0jpyRvshdnl7Qzi3DAkS1e6gpDzl5LuelUPKV9KbCsyXL5_vX7NaPnP1I1WiaxHMb0oqjZzcgdzj2kSJpHaAkHCA9fVDmRvMVze90zEs7CiPIR8JqAPBixYmXnlWXsxeY2nyoWonCeE5lnd9kpiPMsyjoS1egUCX3lLNS_uih1uZwPx6Fl-hybaG2tLxSj0ebMoRPv=w960-h637-no" class="img-responsive" alt="Responsive image"></img>
+        </div>
+        <div class="col-xs-4 thumbnail">
+          <img src="https://lh3.googleusercontent.com/7pxdaAQ_PChREadzZOonlGSizdD6w9s0VvC07T2vrO5p1BdVxGTrtBnK_LzQIPbiYMunIm5hxq8M99uLi2QcuT5RNNw3owSaM_fyMtvIXl14noM05_gdIXNl4iKLU1NBkQNrGKCugW2udCmKukAFMtxn_Ee5M0vuqKJqU_SukT9r2BbIG5kOnS9CguNq6y7bChxK0-oR9Y7LfIylDHeIi8lF24_P2-uNhjWHDsJim0oGmhDvlK6vRN2TXAmp2DLA8ZnG2XV2YF4-n-QUshTvv67wQTAUMGh52JZ1gZcLn4oUIn_N3At8QdoI2a6J6mY_ONMd8tap0IxDvuOz0Grww-JHbbXgCv6TlBwxk6AV2oAHdmah12GT9UjwEqhbwYrfM3IpIf_ika9_aNtHvZcRxaNce8swuW3J9H5Oi5qHpEJB9KgxjIiZJVVyS6WSk2jwOvvxhEtiq7dCZxwX02t74C-tvvHz4wudBeGT4BqUYRCj7esZe0e7jtIX5Mrgr_lErVr9G50L9t4iMhAVIIaitV9E7Db4v0Q0tpXXhzFBYpw_PmtvUJIrvG4rzY0QpSwushEsHxIls5Fmf1HjgzmfoAbwU_qODXrf577fnJ9q9cY-xMhg=w1476-h989-no" class="img-responsive" alt="Responsive image"></img>
+        </div>
+      </div> <!--thumbnail row 2-->
+      <div class="row thumbnail-row thumbnail-row3">
+        <div class="col-xs-4 thumbnail">
+          <img src="https://lh3.googleusercontent.com/by1wWGHkrd4tSVXSqnkGXG2f09dixMOpX1XskbjaDNjDH-qelv63i7cGEmOjg4uKb7WxwGWMLmSzvsg7KXmCG6fr-XZmnNAMkT-hhZ1qIYHKKtROvaKoGZlG-2cnzs2O1ur2HHOJ7noBgEK1zUusEcyjAiu20mlZCqeeeM3zHzWJck_MeaHIxi8s_5ncWSLzq0zJPUqgtQJ8rXjfMEVMXNXJ5kx7TVKF92J8qq7E2Rq4Jg-vZVYDzxumpPleqzScbcBNxbdtH99IbiA6tKxDz4NNlPV9J8waQ2PDc8AJ-sJxsOjcRAibLclN-clb076l2jP02M-viMEFaNivJYRZDy5QgeUdFvpXbYJJcQ9FCoXEuibW1CFtOr1Ka-zs9XTFGudpxakAf5ZmK1W5GSZ7MxWUaWUpfmH4C1NZpzi9auL3R5QHm34qAjvpx6OzC3iqNddTPNX_Vl_sqLckx7w7QXeyCyLIjWWnHn4-X7gPhTtnE6ypbmAZDKPO5m7jS5lD-KdCn7XnCm-cIuI5ch3ds4xZzmnTpihU9Jd8aWsP5ZUCojxZHwa-qD7DUJ4_ERJiDxoq54oNWImMrpfUEx9_ZiLlERZytt7JZZvg92tVEUt-zA7j=w1476-h989-no" class="img-responsive" alt="Responsive image"></img>
+        </div>
+        <div class="col-xs-4 thumbnail">
+          <img src="https://lh3.googleusercontent.com/POMuDJbk4JiXtU5QMRQtuyPPklwhPpS91sx0Edop1aZpV1htgPvSHE8h9DAisdO4CDXcx7-Uils4gEVloiE0nkkr12-IhmPvfv1K0WaB52KuqIs1SJtTkzUH-iAI267h7NoCLc-j1eiPwyxog02mz2oV9-I_mrFHRiZ1i6vB6Rww-wLpMtxGNQoaEYU8KrAEarkivGCfeklIH91dSvFMytxBcS2VavVyPqKLMFePoG94l-1njBcsPjj3VFD6-BmPK06ZjEX5Q39A6iMUpK3te_ff5MHnCyzrIyKfd0wVZodYXjagepx5FKud_gk2Svi5XPXE2mC7sn5T8WDOU9P6ZhY_0vWyrHbSNY9MrLjopkk6KocuJn5u9giNA7D0J0mob-gWvxwD5z8wDpnTWLEL-52mgI9dj087AmqZtBPtM7hNwMaQAp7z1tV11tONHuKBqY5u4t1lGnDjR495vAZlyHhBUc6O7cX044llHYfpdwtOkzkvemTQPmKipjOJLWmHXj-12vkG235Awg-S2sjfeieWE3uwwE9S1laDYYN_Kpya0qYXdnN5C2RbsRWBX_XFqZJmVyr8EygMJ_peajnl8jY-jRWSNAbNi2JVNrN4_z1dFv8A=w1483-h989-no" class="img-responsive" alt="Responsive image"></img>
+        </div>
+        <div class="col-xs-4 thumbnail">
+          <img src="https://lh3.googleusercontent.com/4C03-GiRlozsbNPGYmwoDLqT_m7B2oAMkv1gobNo6O_5wtkvGkD6VQLlYcbgTawnLJnY893wBNk0Qy1C4bsP301ptRU2cjGcs0U0v71e23k4gwaXRaukMusKXnpKxav8tKBQIj9YqkSWMwfLSyp-kcr5pfl6Nt1XoLmJ3KHN7Dcks2xftyjpkeat9XltaIUYLNmv4sxJiv9TAdmkkE3KccM0UlSDjfnYdr5ZdKDjmdk3rhYWV6Xce7GPbvTWbSnxcnNXT0YtFs9IAcdE-Ei9Ubiwoxvtkm42DURuqd1htxXlcN0EV9nt1eSQ6SvW6cujmbbvwPfic-THOJ1BRxFysABpAvmnPhocMVMqWV5udUWyJ5cuEVgNsQn-Raz-Pn2BbswiKDiTCS71dBR9wiNLt0Xlaxgz2BMhHwGamOIREHGwiTua9VEdX8W-gIEABzM9IbpLH9s6USi_s8M6e8iOSzc8Y-wm0CRnfQmV2I5srCM3so7o2JbVmCajSsC1GSFJelgGlGMWihVcU8rylTVmBFJu3jVjzFTej0966awjHCtF_JKXTvT_A_jhHHhlOQ2XJy4x0vEnitJLt5A1ochleO9UFFytJ0ejBf9HLmX-bdxl7cOSHrgU=w1476-h989-no" class="img-responsive" alt="Responsive image"></img>
+        </div>
+      </div> <!--thumbnail row 3-->
+      <div class="row thumbnail-row4">
+        <div class="thumbnail-btn-container">
+          <a class="thumbnail-btn" href="/gallery">more faces</a>
+        </div>
+      </div>
+    </div> <!--thumbnails-->
+    <div class="col-md-1"></div>  <!--Right Side Place Holder-->
   </div>
+    <div class="container">
+      <hr class="row2-black-hr"></hr>
+    </div>
 </div>
+<!--^^^^^Thumbnails and Left Side Form^^^^^-->
 <!--#####Third row#######-->
-<div class="container">
-  <div class="row row-three">
-    <div class="left-menu-container container col-md-5">
+<div class="row3-container container-fluid">
+  <div class="row row3">
+    <div class="left-menu-container container col-md-4">
       <ul class="left-menu-ul">
-        <li id="left-menu-logo">Ethel's Faces</li>
-        <li class="left-menu-buttons"><a href="">connect</a></li>
-        <li class="left-menu-buttons"><a href="/about">more info</a></li>
-        <li class="left-menu-buttons"><a href="/contact">artist bio</a></li>
-        <li class="left-menu-buttons"><a href="/contact">book now</a></li>
+        <li id="left-menu-logo">Sharing Center</li>
+        <li class="left-menu-buttons"><a class="link-image" href="/about">Contact Ethel directly</a></li>
+        <li class="left-menu-buttons"><a class="link-image" href="/*tbd-youtube*">Become a face painter</a></li>
+        <li class="left-menu-buttons"><a class="link-image" href="/*tbd-external*">Additional resources</a></li>
+        <li class="left-menu-buttons"><a class="link-image" href="/booking">Book your event</a></li>
         <li class="left-menu-buttons left-menu-logos">
-          <a>
-            <i class="link-image fa fa-facebook-official fa-lg" aria-hidden="true"></i>
+          <a class="link-image">
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
           </a>
-          <a>
-            <i class="link-image fa fa-twitter-square fa-lg" aria-hidden="true"></i>
+          <a class="link-image">
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
           </a>
-          <a>
-            <i class="link-image fa fa-instagram fa-lg" aria-hidden="true"></i>
+          <a class="link-image">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
           </a>
-          <a>
-            <i class="link-image fa fa-google-plus" aria-hidden="true"></i>
+          <a class="link-image">
+            <i class="fa fa-google-plus" aria-hidden="true"></i>
           </a>
         </li>
       </ul>
-    </div> 
-    <div class="col-md-7">
-      <div class="fb-comments" data-href="https://gitfacepaint-joshmurph316.c9users.io/home" data-width="650" data-numposts="5"></div>
     </div>
+    <div class="col-md-6">
+      <div class="fb-comments" data-href="https://gitfacepaint-joshmurph316.c9users.io/home" data-width="650" data-numposts="3"></div>
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+  <div class="container">
+      <hr class="row2-black-hr"></hr>
   </div>
 </div>
-
 <% include ../partials/footer %> 

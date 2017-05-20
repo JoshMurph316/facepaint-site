@@ -30,7 +30,6 @@ router.post("/booking", function(req,res){
             console.log(err);
         } else {
             res.redirect("/booking");
-            console.log(newlyCreated);
         }
     });
 });

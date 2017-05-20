@@ -1,47 +1,90 @@
-body, html {
-  height: 100%;
-}
+/*General Body Stuff*/
 body {
-    background-color: rgb(230, 255, 255);
+    background-color: #f6f6f6;
     font-family: 'Comfortaa', cursive;
     font-size: 50px;
 }
-hr {
+li{
+    list-style: none;
+}
+a{
+    cursor: pointer;
+}
+a:hover{
+     color: #ffb924;
+     text-decoration: none;
+}
+.white-hr{
     border: 0; 
     height: 1px; 
-    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+    width: 75%;
+    background-color: #ffffff;
 }
-#foot {
-    margin-top: 300px;
-    font-size: 35%;
+.white-hr-full{
+    border: 0; 
+    height: 1px;
+    background-color: #ffffff;
+}
+.black-hr{
+    font-size:0px;
+	border-top: 4px double #8c8b8b;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.black-hr:after {
+	content: '\002665';
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	padding: 0 10px;
+	background: #ffffff;
+	color: #8c8b8b;
+	font-size: 18px;
+}
+.pop-text{
+    font-size: 145%;
+    font-family: 'Righteous', cursive;
+    color:#ffb924;
+}
+.pop-text2{
+    font-size: 145%;
+    font-family: 'Righteous', cursive;
+    color:#336f3b;
+}
+/*Footer Stuff*/
+.footer-container {
+    color: #ffffff;
+    margin-top: 200px;
+    padding:75px 20px; 
+    font-size: 55%;
     position: relative;
     bottom: 0;
+    background-color: #1F8A70;
+}
+.footer-container li {
+    margin:20px;
+}
+.footer-container a{
+    color: #ffffff;
 }
 
 /*##Navbar Stuff##*/
 .navbar-default {
-    font-size: 55%;
-    font-family: 'Open Sans', sans-serif;
-    background-color: rgb(140, 217, 140);
-    border-bottom: solid rgb(102, 204, 255) 1px;
-    margin: 0 0 55px 0;
-    position: relative;
+    font-size: 40%;
+    background-color: #f6f6f6;
 }
-.navbar-right {
-    padding-right: 1%;
+.navbar-right-li {
+    padding-right: 25px;
 }
 .navbar-brand {
-    font-size: 100%;
+    font-size: 110%;
     padding: 12px 15px;
 }
-.fa-superpowers{
-    font-size: 100%;
-    color:purple;
+.navbar-link a{
+    color:#404040;
 }
 #nav ul li:hover a{ 
-     background-color: rgb(230, 255, 255);
-     color: rgb(140, 217, 140);
+     background-color: #e6e6e6;
+     color: #ffb924;
 }
