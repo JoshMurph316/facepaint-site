@@ -264,20 +264,29 @@ a:hover {
     background-size: cover;
     animation: fade 20s infinite;
     -webkit-animation: fade 20s infinite;
+    -moz-animation: fade 20s infinite;
+    -ms-animation: fade 20s infinite;
+    -o-animation: fade 20s infinite;
 }
 
 .slide2 {
     background: url("./images/fox-boy.jpg")no-repeat center;
     background-size: cover;
     animation: fade2 20s infinite;
-    -webkit-animation: fade2 20s infinite;
+    -webkit-animation: fade 20s infinite;
+    -moz-animation: fade 20s infinite;
+    -ms-animation: fade 20s infinite;
+    -o-animation: fade 20s infinite;
 }
 
 .slide3 {
     background: url("./images/btfly.jpg")no-repeat center;
     background-size: cover;
     animation: fade3 20s infinite;
-    -webkit-animation: fade3 20s infinite;
+    -webkit-animation: fade 20s infinite;
+    -moz-animation: fade 20s infinite;
+    -ms-animation: fade 20s infinite;
+    -o-animation: fade 20s infinite;
 }
 
 @keyframes fade {
