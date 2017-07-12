@@ -515,3 +515,9 @@ a:hover {
 .da-plug {
     font-size: 75%;
 }
+
+.exit-container {
+    margin-top: 100px;
+    text-align: center;
+    min-height: 50%;
+}
