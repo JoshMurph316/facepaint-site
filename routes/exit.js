@@ -25,8 +25,8 @@ router.post("/", function(req, res) {
     });
     const fromEmail = new helper.Email(mailer.fromEmail);
     const toEmail = new helper.Email(mailer.toEmail);
-    const subject = 'You have a new customer';
-    const content = new helper.Content('text/plain', 'Here is the Name: ' + newUser.firstName + ' and Email: ' + newUser.emailAddress);
+    const subject = 'Hey Ethel have a new customer';
+    const content = new helper.Content('text/plain', 'Here is the Name: ' + newUser.firstName + ' and here is Email: ' + newUser.emailAddress);
     const mail = new helper.Mail(fromEmail, subject, toEmail, content);
 
     const sg = require('sendgrid')(mailer.key);
